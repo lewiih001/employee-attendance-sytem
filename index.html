@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='index.css' /> 
+     <script src="src index.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee attendance system</title>
+</head>
+<body onload="loadTable()">
+    <table id="attendance">
+        <input type="button" value="Add employee" id="add" link="add employee.html">
+    
+           <tr>
+        <td></td>
+        <td>First Name</td>
+        <td>Last Name</td>  
+               <td>Absent (If employee is present leave this unchecked)</td>
+               <input id="save" onclick="att()" type="button">
+            </tr>
+        <td id="indx"></td>
+        <td id="eFirstName"></td>
+        <td id="eLastName"></td>
+        <td><input id="a" type="checkbox"></td>
+           </table>
+</body>
+</html>
